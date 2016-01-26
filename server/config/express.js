@@ -38,7 +38,7 @@ module.exports.init = function() {
   /* go to homepage for all routes not specified */ 
 
   app.all('/*',function(req, res) {
-    res.redirect('../../client/index.html');
+    res.redirect('index.html');
   })
 
   return app;
